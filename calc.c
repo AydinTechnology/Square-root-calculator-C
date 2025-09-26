@@ -12,7 +12,7 @@ float square_root(float x) {
                 n1 = x/n0 + n0;
                 n1 = n1 / 2;
 
-                if(n1 - n0 == 0) break;
+                if(n1 - n0 == 0) break; //we can check for convergence by checking if there's a difference between n and n-1
         }
         return n1;
 }
